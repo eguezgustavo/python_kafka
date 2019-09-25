@@ -64,5 +64,8 @@ Write the following message on the terminal session where the producer was start
 
 Change to the terminal session where the consumer was started and you should see the posted message.
 
+**Step 5.** Check the code
+
+Study the **producer_cli.py** and **consumer_cli.py** files to understand how python-kafka works.
 
 
