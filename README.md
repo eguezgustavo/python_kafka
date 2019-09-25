@@ -6,6 +6,9 @@ To give feedback please create an issue here:<br>https://github.com/eguezgustavo
 Clone this repository:<br>
 ````git clone https://github.com/eguezgustavo/python_kafka.git````
 
+Change to the workshop directory:<br>
+````cd python_kafka````
+
 Create a virtual environment (be sure you have Python 3 installed on your machine):<br>
 ```virtualenv -p python3 venv```
 
