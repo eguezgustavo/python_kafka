@@ -12,6 +12,9 @@ Create a virtual environment (be sure you have Python 3 installed on your machin
 Activate the virtual environment:<br>
 ```source venv/bin/activate```
 
+Install all the dependencies:<br>
+```pip install -r requirements.txt```
+
 ## Part 1. Python AsyncIO
 
 **Step 1.** _Read_ this article https://realpython.com/async-io-python/<br>
