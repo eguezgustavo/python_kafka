@@ -17,5 +17,44 @@ Activate the virtual environment:<br>
 **Step 1.** _Read_ this article https://realpython.com/async-io-python/<br>
 **Step 2.** _Exercise_: Write a Python script to print in the screen a "5 seconds" message every 5 seconds and a "3 seconds" message every 3 seconds. The script should use the **asyncio** framework.
 
-**Solution:** Look the __asyncio_workshop__ folder.<br>
-**Run the solution:** ````python asyncio_workshop/exercise.py````
+**Solution:** asyncio_exercise.py<br>
+**Run the solution:** ```python asyncio_exercise.py```
+
+## Part 2. Python and Kafka (No Async IO)
+**You need to have docker installed on your machine for this step of the workshop.**
+
+**Step 1.** Run Kafka with Docker
+
+```
+    export IP=Your Machine Ip Here
+    docker compose up
+```
+
+**Step 2.** Create a Kafka Producer
+
+- Open another terminal session:
+- Create a producer by running this command:
+```
+    export IP=Your Machine Ip Here
+    ./producer_cli.py
+```
+
+**Step 3.** Create a Kafka Consumer
+
+- Open another terminal session:
+- Create a consumer by running this command:
+```
+    export IP=Your Machine Ip Here
+    ./consumer_cli.py
+```
+
+**Step 4.** Send a test message
+
+Write the following message on the terminal session where the producer was started and hit Enter:
+
+```{"test": true}```
+
+Change to the terminal session where the consumer was started and you should see the posted message.
+
+
+
