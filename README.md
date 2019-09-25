@@ -68,4 +68,14 @@ Change to the terminal session where the consumer was started and you should see
 
 Study the **producer_cli.py** and **consumer_cli.py** files to understand how python-kafka works.
 
+## Part 3. Python and Kafka with Async IO
+
+**Step 1.** _Exercise_: Create a single python script with 2 Kafka consumers for the same topic. When a message is received each consumer should print its name and the message body.
+
+**Hint:** Use the producer_cli.py script to send messages<br>
+**Hint:** User the _aiokafka_ library<br>
+**Solution:** asyncio_kafka_exercise.py<br>
+**Run the solution:** ```python asyncio_kafka_exercise.py```
+
+Study the **asyncio_kafka_exercise.py** script to understand how aiokafka works.
 

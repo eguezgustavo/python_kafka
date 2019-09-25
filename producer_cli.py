@@ -15,7 +15,7 @@ if __name__ == '__main__':
         try:
             message = input('Input the message to be posted: ')
             producer.send(TOPIC_NAME, message)
-            print(f'Message: "{message}"has been posted')
+            print(f'Message: "{message}" has been posted')
             print('')
         except KeyboardInterrupt:
             exit(0)
