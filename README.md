@@ -81,7 +81,7 @@ Study the **producer_cli.py** and **consumer_cli.py** files to understand how py
 **Hint:** Use the producer_cli.py script to send messages<br>
 **Hint:** User the _aiokafka_ library<br>
 **Solution:** asyncio_kafka_exercise.py<br>
-**Run the solution:** ```python asyncio_kafka_exercise.py```
+**Run the solution:** ```export IP=Your Machine Ip Here && python asyncio_kafka_exercise.py```
 
 Study the **asyncio_kafka_exercise.py** script to understand how aiokafka works.
 
