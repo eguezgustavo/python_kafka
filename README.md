@@ -1,22 +1,16 @@
 # Python and Kafka
-The following contents are meant to be followed as a workshop.
+This content is meant to be followed as a workshop.<br>
+To give feedback please create an issue here:<br>https://github.com/eguezgustavo/python_kafka/issues
 
-To run the examples clone this repository:<br>
+## Before running the examples
+Clone this repository:<br>
 ````git clone https://github.com/eguezgustavo/python_kafka.git````
 
-Then create a virtual environment (be sure you have Python 3 installed on your machine):<br>
+Create a virtual environment (be sure you have Python 3 installed on your machine):<br>
 ```virtualenv -p python3 venv```
 
 Activate the virtual environment:<br>
 ```source venv/bin/activate```
-
-
-*To run Kafka using Docker*<br>
-https://medium.com/rahasak/kafka-and-zookeeper-with-docker-65cff2c2c34f
-
-*Kafka with Python*<br>
-https://towardsdatascience.com/kafka-python-explained-in-10-lines-of-code-800e3e07dad1
-
 
 ## Part 1. Python AsyncIO
 
@@ -25,6 +19,3 @@ https://towardsdatascience.com/kafka-python-explained-in-10-lines-of-code-800e3e
 
 **Solution:** Look the __asyncio_workshop__ folder.<br>
 **Run the solution:** ````python asyncio_workshop/exercise.py````
-
- 
-
