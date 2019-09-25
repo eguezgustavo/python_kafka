@@ -27,12 +27,16 @@ Activate the virtual environment:<br>
 
 ```
     export IP=Your Machine Ip Here
-    docker compose up
+    docker-compose up
 ```
 
 **Step 2.** Create a Kafka Producer
 
 - Open another terminal session:
+- Activate the environment
+```
+    source venv/bin/activate
+```
 - Create a producer by running this command:
 ```
     export IP=Your Machine Ip Here
@@ -42,6 +46,10 @@ Activate the virtual environment:<br>
 **Step 3.** Create a Kafka Consumer
 
 - Open another terminal session:
+- Activate the environment
+```
+    source venv/bin/activate
+```
 - Create a consumer by running this command:
 ```
     export IP=Your Machine Ip Here
