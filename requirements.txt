@@ -2,7 +2,7 @@ aiokafka==0.5.2
 appnope==0.1.0
 backcall==0.1.0
 decorator==4.4.0
-ipython==7.8.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.15.1
 kafka-python==1.4.6
